@@ -3,6 +3,17 @@ import java.util.Map;
 
 public class HashMapMethods {
     public static void main(String[] args) {
+
+        //A hash code is an integer value that is associated with each object in Java.
+        String name = "vasu";
+        int hascode = name.hashCode();
+        System.out.println(hascode);
+
+        /* sometimes number is itself hashcode */
+        Integer rollno = 778;
+        int hasCode = rollno.hashCode();
+        System.out.println(hasCode);
+
         HashMap<String, Integer> map = new HashMap<>();
 
         // Adding elements to the Map

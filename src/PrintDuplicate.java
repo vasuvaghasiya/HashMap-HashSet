@@ -7,7 +7,7 @@ public class PrintDuplicate {
         HashMap<Integer,Integer> map = new HashMap<>();
 
         for(int i=0;i<arr.length;i++){
-            if(map.containsKey(arr[i])){
+            if(map.containsKey(arr[i])) {
                 int oldF = map.get(arr[i])+1;
                 map.put(arr[i],oldF);
             }
